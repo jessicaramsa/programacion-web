@@ -1,0 +1,12 @@
+29 Agosto 2019
+1.- Investigar para qué sirve la etiqueta DOCTYPE y cuáles son
+sus atributos. (en la libreta, 3 Septiembre)
+
+1.5.- Copiar table
+border="3"
+border="3" cellpadding="12"
+border="3" cellpadding="12" cellspacing="6" width="350" height="150"
+border="3" cellpadding="12" cellspacing="6" width="350" height="150" align="center"
+
+2.- Realizar con HTML página de presentación con foto (3 Septiembre)
+
