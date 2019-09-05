@@ -1,6 +1,4 @@
 03 Septiembre 2019
-(?) Examen 10 o 12 Septiembre
-* Agregar prácticas a archivo index.html [Hipervínculos]
 * Horario/Seguimiento realizarlo con tablas [semana 9-13 septiembre]
 
 &aacuterbol
@@ -8,3 +6,11 @@
 &#191;
 &#161;
 &uuml
+
+rowspan="2" valign="middle" align="left"
+colspan="2"
+
+05 Septiembre 2019
+17 Septiembre - descargar aplicación "Learn"
+Glosario de etiquetas [Semana 9-13 Septiembre] [17 Septiembre, enviar]
+(?) Examen 16-20 Septiembre
