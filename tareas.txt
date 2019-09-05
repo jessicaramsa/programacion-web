@@ -1,0 +1,10 @@
+03 Septiembre 2019
+(?) Examen 10 o 12 Septiembre
+* Agregar prácticas a archivo index.html [Hipervínculos]
+* Horario/Seguimiento realizarlo con tablas [semana 9-13 septiembre]
+
+&aacuterbol
+&Ntilde
+&#191;
+&#161;
+&uuml
