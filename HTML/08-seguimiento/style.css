@@ -1,0 +1,21 @@
+* {
+  /* font-family: 'Free-Mono'; */
+  text-transform: uppercase;
+}
+
+.encabezado {
+  background-color: rgb(0, 116, 198);
+  color: #fff;
+}
+
+.borde-azul {
+  font-family: Arial, sanf-serif;
+  /* border: solid #00f; */
+  background-color: rgb(115, 154, 214);
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.renglon {
+  background-color: rgb(225, 233, 247);
+}
