@@ -1,5 +1,4 @@
 * {
-  /* font-family: 'Free-Mono'; */
   text-transform: uppercase;
 }
 
@@ -8,7 +7,7 @@
   color: #fff;
 }
 
-.borde-azul {
+.azul {
   font-family: Arial, sanf-serif;
   /* border: solid #00f; */
   background-color: rgb(115, 154, 214);

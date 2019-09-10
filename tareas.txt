@@ -4,3 +4,6 @@
 &#161;
 &uuml
 
+24 Septiembre (tentativo) - inician exposiciones
+3. Ejercicio práctico de conexión a base de datos con PHP
+  altas, bajas, consultas, modificaciones
