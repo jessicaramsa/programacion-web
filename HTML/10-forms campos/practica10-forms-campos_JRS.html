@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Formularios campos</title>
+  </head>
+  <body>
+    nombre: <input type="text" name="nombre" required>
+    Sexo: <br>
+    <input type="radio" name="hm" value="h" required> Hombre <br>
+    <input type="radio" name="hm" value="m" required> Mujer <br>
+    <!-- El atributo placeholder permite mostrar en los controleso
+      de texto un textoque desaparece al escribir en el control-->
+    <p>
+      Apellidos:
+      <input type="text" name="apellidos" size="40" placeholder="Escribe tus dos apellidos">
+    </p>
+    <br><br>
+    Correo:
+    <input type="email" name="correo" size="40" placeholder="Escribe tu correo">
+    <br><br>
+    Fecha:
+    <input type="date" name="fecha" size="20">
+    <br><br>
+    Mes:
+    <input type="month" name="mes" size="20">
+    <br><br>
+    Semana:
+    <input type="week" name="semana" size="20">
+    <br><br>
+    Escriba un número:
+    <input type="number" name="numero">
+    <br><br>
+    <!-- El atributo readonly hace que el control no se modificable,
+      aunque el control puede tener el foco.-->
+    <input type="text" name="texto" value="Nel" readonly>
+    <br><br>
+    <!-- El atributo accesskey establece la combinación de teclas
+      coloca el foco en un elemento de un formulario.
+      Google Chrome utilizan la combinación de teclas 'Alt+telas'
+      Firefox utiliza la combinación 'Alt+shift+tecla'-->
+    <p>
+      <input type="text" name="texto1" value="Acceso con a" accesskey="a">
+      <input type="text" name="texto2" value="Acceso con i" accesskey="i">
+      <input type="text" name="texto3" value="Acceso con o" accesskey="o">
+      <input type="text" name="texto4" value="Acceso con u" accesskey="u">
+    </p>
+    <br><br>
+    Elija un color:
+    <input type="color" name="color">
+    <br><br>
+    Elija un color:
+    <input type="color" name="color2" value="#ff0000">
+    <br><br>
+    Indique su nivel:
+    <input type="range" name="rango">
+    <br><br>
+    Indique su nivel (de 1-10, de 3 en 3):
+    <input type="range" name="rango" min="1" max="10" step="3">
+    <br><br>
+    Indique su nivel (de 0-1, 0.1 en 0.1):
+    <input type="range" name="rango" min="0" max="10" step="0.1">
+    <br><br>
+    Indique su nivel (Malo, Regular, Bueno):
+    <input type="range" name="rango" min="1" max="3" list="lista-rango">
+    <datalist id="lista-rango">
+      <option value="1" label="Malo"></option>
+      <option value="2" label="Regular"></option>
+      <option value="3" label="Bueno"></option>
+    </datalist>
+    <br><br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+    <!-- El atributo disabled permite deshabilitar el control. -->
+    <input type="reset" value="Reset" disabled>
+    <br><br>
+    <input type="button" value="Este botón no hace nada">
+    <br><br>
+    <button type="submit">
+      <img src="send.png" alt="Enviar" width="32" height="32">
+    </button>
+    <br><br>
+    <button type="reset">
+      <img src="delete.png" alt="Eliminar" width="32" height="32">
+    </button>
+    <br><br>
+    <button type="submit">
+      <img src="tick.png" alt="Enviar" width="32" height="32" style="vertical-align: middle;">
+    </button>
+  </body>
+</html>
