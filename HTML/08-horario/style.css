@@ -1,20 +1,118 @@
 * {
-  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.encabezado {
-  background-color: rgb(0, 116, 198);
-  color: #fff;
+body {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
 }
 
-.azul {
-  font-family: Arial, sanf-serif;
-  /* border: solid #00f; */
-  background-color: rgb(115, 154, 214);
-  color: #fff;
-  text-transform: capitalize;
+.horario {
+  width: 216mm;
+  height: 140mm;
+  padding: 1em 2em;
+  /* border: solid 1px #444444; */
 }
 
-.renglon {
-  background-color: rgb(225, 233, 247);
+.header {
+  margin-bottom: 1em;
+  display: grid;
+  grid-template-columns: max-content 1fr min-content;
+}
+
+.header > div {
+  font-size: 9px;
+}
+
+.sep {
+  width: max-content;
+  display: grid;
+  gap: 0.25em 0;
+  grid-template-rows: repeat(2, min-content);
+  justify-items: center;
+  align-content: center;
+}
+
+.sep img {
+  height: 50px;
+}
+
+.itl {
+  position: absolute;
+  right: calc(50% - 108mm + 1em);
+  height: 100px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.datos {
+  margin-bottom: 0.25em;
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.datos-col {
+  display: grid;
+  gap: 4px 0;
+  grid-template-rows: repeat(4, 15px);
+}
+
+.sub-row {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: 60px 1fr;
+}
+
+.sub-row-2 {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: 60px 75px 60px 75px 60px 1fr;
+}
+
+.filled {
+  text-align: center;
+  color: white;
+  background: hsl(216, 0%, 65%);
+}
+
+.row {
+  background: hsl(218, 58%, 93%);
+  width: 100%;
+  font-size: 12px;
+  padding: 0.25em 0;
+  display: grid;
+  grid-template-columns: 7% 10% 1fr 4% repeat(5, 10%);
+}
+
+.row:nth-child(even) {
+  background: white;
+}
+
+.header-row {
+  color: white;
+  background: black;
+}
+
+.col {
+  padding: 0.25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hr {
+  width: 100%;
+  margin-top: 1em;
+  padding-top: 0.25em;
+  font-size: 12px;
+  border-top: solid 5px black;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
 }
