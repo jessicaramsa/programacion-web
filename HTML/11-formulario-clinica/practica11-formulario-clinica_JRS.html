@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulario clínica</title>
+    <style>
+      body {
+        display: flex;
+        /* justify-content: center; */
+      }
+      form {
+        max-width: 75%;
+        padding: .5em;
+      }
+      input {
+        border: none;
+        margin-right: 2em;
+        border-bottom: solid 1px black;
+      }
+
+      .c-fecha {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" method="POST">
+      <center>
+        <h3>Historial clínico<br><br></h3>
+      </center>
+
+      <div class="c-fecha">
+        <label for="fecha">Fecha:</label>
+        <input type="date" name="fecha"><br><br>
+      </div>
+
+      <div>
+        <label for="nombrePaciente">Nombre del paciente:</label>
+        <input type="text" name="nombrePaciente"><br><br><br>
+
+        <label for="fechaNac">Fecha de nacimiento:</label>
+        <input type="date" name="fechaNac">
+
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad">
+
+        <label for="peso">Peso:</label>
+        <input type="number" name="peso"><br><br>
+
+        <label for="enfMaterno">Enfermedades por parte materno:</label><br>
+        <input type="text" name="enfMaterno" style="width: 100%"><br><br>
+
+        <label for="enfPaterno">Enfermedades por parte paterno:</label><br>
+        <input type="text" name="enfPaterno" style="width: 100%"><br><br>
+
+        <label for="enfermedades">Enfermedades:</label><br>
+        <input type="text" name="enfermedades" style="width: 100%"><br><br><br>
+
+        <label for="">Datos de contacto</label><br><br>
+
+        <label for="emailP">Email:</label>
+        <input type="email" name="emailP" style="width: 40%"><br><br>
+        
+        <label for="celular">Celular:</label>
+        <input type="number" name="celular" style="width: 39%"><br><br>
+
+        <label for="telFijo">Teléfono fijo:</label>
+        <input type="number" name="telFijo" style="width: 34.5%">
+      </div>
+    </form>
+  </body>
+</html>

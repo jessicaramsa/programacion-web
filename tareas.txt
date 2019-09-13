@@ -5,23 +5,3 @@
 &uuml
 
 24 Septiembre (tentativo) - inician exposiciones
-3. Ejercicio práctico de conexión a base de datos con PHP
-  altas, bajas, consultas, modificaciones
-
-12 Septiembre
-                  Historial clínico
-                                          fecha: _________________
-
-nombre de paciente: __________________________________
-
-fecha de nacimiento: _____________ edad: _____________ peso: _____
-enfermedades por parte materno: __________________________________
-__________________________________________________________________
-enfermedades por parte paterno: __________________________________
-__________________________________________________________________
-enfermedades: ____________________________________________________
-__________________________________________________________________
-datos de contacto:
-email: ____________________________________
-celular: __________________________________
-telefono fijo: ____________________________
