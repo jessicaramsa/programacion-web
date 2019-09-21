@@ -5,7 +5,7 @@
 }
 
 body {
-  padding: 2em;
+  padding: 1em;
   display: flex;
   justify-content: center;
 }
@@ -114,4 +114,14 @@ body {
   border-top: solid 5px black;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
+}
+
+.firma {
+  display: grid;
+  justify-content: center;
+}
+
+.codigo {
+  display: grid;
+  justify-items: center;
 }
