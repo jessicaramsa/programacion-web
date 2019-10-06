@@ -1,0 +1,30 @@
+div {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  color: yellow;
+  font-size: 50px;
+  border: 1px solid black;
+}
+
+.caja {
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+.caja_padre {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: black;
+  top: 0px;
+  left: 250px;
+}
+
+.caja_hijo {
+  position: absolute;
+  background: red;
+  top: 100px;
+  left: 0px;
+}

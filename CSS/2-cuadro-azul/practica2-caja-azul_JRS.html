@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejercicio cajas</title>
+  <style>
+    #capa {
+      position: absolute;
+      width: 200px;
+      height: 115px;
+      z-index: 3;
+      visibility: visible;
+      background-color: #00ccaa;
+      layer-background-color: #00ccaa;
+      background-image: url(logo.png);
+      layer-background-image: url(logo.png);
+      clip: rect(1 auto auto 3);
+    }
+  </style>
+</head>
+<body>
+  <div id="capa">
+    Este texto est&aacute; dentro de una capa.
+  </div>
+</body>
+</html>
