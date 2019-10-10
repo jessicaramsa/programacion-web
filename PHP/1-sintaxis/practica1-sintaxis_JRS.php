@@ -32,5 +32,14 @@ function suma($x, $y) {
 
 $a = 5;
 $b = 2;
-echo "El resultado de la suma $a + $b = ".suma($a, $b)."<br>";
+echo "El resultado de la suma $a + $b = ".suma($a, $b)."<br><br>";
+
+function muestraNombre($titulo = "Sr") {
+    print "Estimado $titulo<br>";
+}
+muestraNombre();
+muestraNombre("Bowser");
+
+echo 9 * 2;
+echo "<br><br>";
 ?>
