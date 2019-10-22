@@ -9,7 +9,7 @@
 <body>
   <h1>Lector RSS</h1>
   <?php
-  $newsfeed = "practica7-silverstone_JRS.xml";
+  $newsfeed = "https://www.reforma.com/rss/negocios.xml";
   $show = "";
   if ($rss = @simplexml_load_file($newsfeed)) {
     foreach($rss->channel->item as $item) {

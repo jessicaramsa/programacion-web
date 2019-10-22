@@ -1,0 +1,32 @@
+@extends('plantilla')
+
+@section('seccion')
+<br><h1>Este es mi equipo de trabajo</h1><br>
+
+@foreach ($equipo as $item)
+<a href="{{route('nosotros', $item)}}" class="h4 text-danger">{{$item}}</a><br>
+@endforeach
+
+@if(!empty($nombre))
+
+    @switch($nombre)
+        @case($nombre == 'Luis')
+        <h2 class="mt-5">El nombre es {{$nombre}}:</h2>
+        <p>mide 1.70 metros</p>
+        @break 
+        
+        @case($nombre == 'Fernanda')
+        <h2 class="mt-5">El nombre es {{$nombre}}:</h2>
+        <p>mide 1.69 metros</p>
+        @break 
+        
+        @case($nombre == 'Francisco')
+        <h2 class="mt-5">El nombre es {{$nombre}}:</h2>
+        <p>mide 1.73 metros</p>
+        @break 
+
+    @endswitch
+
+@endif
+
+@endsection
