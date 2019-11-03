@@ -19,7 +19,7 @@
   <?php
     $receiverMail = "jessicaramsa@gmail.com";
     if (isset($_POST['Mail']) && $_POST['Mail'] != "") {
-      if (@mail($receiverMail, "¡Tienes correo nuevo!", $_POST['message'], "From: $_POST[Mail]")) {
+      if (mail($receiverMail, "¡Tienes correo nuevo!", $_POST['message'], "From: $_POST[Mail]")) {
         echo "<p>Gracias por enviarme tu opinión.</p>\n";
       } else {
         echo "<p>Lo siento, ha ocurrido un error.</p>\n";
