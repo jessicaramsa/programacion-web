@@ -1,0 +1,41 @@
+body {
+  background: url('../img/fondo.jpg');
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  border-bottom: dotted 2px #ccc;
+  text-align: center;
+}
+
+#principal {
+  background-color: #fff;
+  max-width: 35%;
+}
+
+#img-principal {
+  max-width: 100%;
+}
+
+#content {
+  margin: 1em;
+  padding: 1em;
+}
+
+#button-content {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  background-color: red;
+  color: #fff;
+  text-decoration: none;
+  padding: .7em;
+}
+
+a:hover {
+  background-color: blue;
+}

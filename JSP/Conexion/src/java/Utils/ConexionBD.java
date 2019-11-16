@@ -11,7 +11,7 @@ public class ConexionBD {
         Connection con = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost/usuario?user=root&password=Cluster.8");
+            con = DriverManager.getConnection("jdbc:mysql://localhost/clinica?user=root&password=Cluster.8");
             System.out.println("Conexión exitosa");
         } catch (Exception e) {
             System.out.println("Error. " + e);

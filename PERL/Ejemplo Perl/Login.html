@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1250" />
+    <title>Inicio</title>
+    <style>
+      span {
+        display: block;
+        margin-bottom: 1em;
+      }
+
+      h1 {
+        color: #3a66d6;
+      }
+
+      div {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form action="validar.pl" method="post">
+        <h1>Inicia sesi&oacute;n</h1>
+        <span>
+          <input
+            type="text"
+            name="usuario"
+            class="usuario"
+            placeholder="Usuario"
+          />
+        </span>
+        <span>
+          <input
+            type="password"
+            name="password"
+            class="password"
+            placeholder="Contrase&ntilde;a"
+          />
+        </span>
+        <span>
+          <button type="submit" name="iniciar">Ingresar</button>
+        </span>
+      </form>
+    </div>
+  </body>
+</html>
