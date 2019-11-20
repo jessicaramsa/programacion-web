@@ -8,6 +8,7 @@ body {
 h1 {
   border-bottom: dotted 2px #ccc;
   text-align: center;
+  color: #000;
 }
 
 #principal {
@@ -22,6 +23,7 @@ h1 {
 #content {
   margin: 1em;
   padding: 1em;
+  color: #666;
 }
 
 #button-content {
