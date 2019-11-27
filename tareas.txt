@@ -5,3 +5,27 @@
 &uuml
 
 
+Ejercicio 1
+modificar el primer script para que:
+1. todo el codigo javscript se encuentre en
+un archivo externo llamdo codigo.js
+y el script siga funcionando de la misma manera
+2. despues del primer mensaje, se debe mostrar
+otro mensaje que diga "soy el primer script"
+3. añadir algunos comentario sque explique el funcionando
+del codigo
+4.
+
+Ejercicio 2
+1. el mensaje que se muestra al usuario se almacene
+en un avariable
+2. ....
+Hola mundo
+que faacil es incluir 'comillas simples'
+y "comillas dobles"
+
+tarea introduccion js
+- leer capitulo 5
+- capitulo 6
+- capítulo 7 formularios
+- proyecto js (semana 2 diciembre)
