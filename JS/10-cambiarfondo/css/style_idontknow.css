@@ -1,0 +1,32 @@
+* {
+  font-family: neurochrome;
+}
+
+body {
+  background-image: url(../img/idontknow.jpg);
+}
+
+h1 {
+  text-align: right;
+}
+
+#blink {
+  color: #f00;
+}
+
+.lblNormal {
+  font-weight: 100;
+  color: #f00;
+  font-size: 20px;
+}
+
+.cmbNormal {
+  font-size: 20px;
+  color: #333;
+}
+
+.lstElemento {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}

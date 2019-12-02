@@ -4,9 +4,3 @@
 &#161;
 &uuml
 
-
-tarea introduccion js
-- leer capitulo 5
-- capitulo 6
-- capítulo 7 formularios
-- proyecto js (semana 2 diciembre)

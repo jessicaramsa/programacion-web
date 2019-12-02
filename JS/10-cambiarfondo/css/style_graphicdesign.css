@@ -1,0 +1,32 @@
+* {
+  font-family: "Matura MT Script Capitals";
+}
+
+body {
+  background-image: url(../img/graphicdesign.jpg);
+}
+
+h1 {
+  text-align: right;
+}
+
+#blink {
+  color: #f00;
+}
+
+.lblNormal {
+  font-weight: 300;
+  color: #f00;
+  font-size: 25px;
+}
+
+.cmbNormal {
+  font-size: 20px;
+  color: rgb(32, 122, 85);
+}
+
+.lstElemento {
+  color: #000;
+  font-size: 25px;
+  text-align: center;
+}

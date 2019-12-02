@@ -1,0 +1,31 @@
+* {
+  font-family: "Brush Script MT";
+}
+
+body {
+  background-image: url(../img/evangelion1.jpg);
+}
+
+h1 {
+  text-align: center;
+}
+
+#blink {
+  color: #221785;
+}
+
+.lblNormal {
+  font-weight: 200;
+  color: rgb(14, 108, 185);
+  font-size: 25px;
+}
+
+.cmbNormal {
+  font-size: 25px;
+  color: #660033;
+}
+
+.lstElemento {
+  color: #fff;
+  font-size: 25px;
+}

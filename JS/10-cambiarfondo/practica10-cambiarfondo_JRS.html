@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manejo de CSS</title>
+  <link rel="stylesheet" href="" id="lnkCSS">
+  <script>
+    var slcCSS;
+    var lnkCSS;
+
+    function slcCSS_onChange() {
+      lnkCSS.href = slcCSS.options[slcCSS.selectedIndex].value;
+    }
+
+    function cssExample_onLoad() {
+      slcCSS = document.getElementById("slcCSS");
+      lnkCSS = document.getElementById("lnkCSS");
+    }
+
+    window.onload = cssExample_onLoad;
+  </script>
+</head>
+<body>
+  <form name="frmCSS" method="post">
+    <h1><blink id="blink">USO DE CSS</blink></h1>
+    <br><br><br>
+    <div class="lblNormal">
+      Tema/Estilo/CSS:
+      <select name="slcCSS" id="slcCSS" class="cmbNormal" onchange="slcCSS_onChange()">
+        <option id="styleNone" value="" selected disabled>Ninguno</option>
+        <option id="style_evangelion1" value="css/style_evangelion1.css">Evangelion EVA</option>
+        <option id="style_evangelion2" value="css/style_evangelion2.css">Evangelion Asuka</option>
+        <option id="style_graphicdesign" value="css/style_graphicdesign.css">Graphic Design is my passion</option>
+        <option id="style_idontknow" value="css/style_idontknow.css">Monster</option>
+        <option id="style_jellyfish" value="css/style_jellyfish.css">Jellyfish</option>
+      </select>
+    </div>
+    <br><br><br><br>
+    <div class="lblNormal">
+      Grupos favoritos:
+    </div>
+    <ol>
+      <li class="lstElemento">Daughter</li>
+      <li class="lstElemento">Cin3ma</li>
+      <li class="lstElemento">Kodaline</li>
+      <li class="lstElemento">Broods</li>
+      <li class="lstElemento">Foals</li>
+    </ol>
+  </form>
+</body>
+</html>

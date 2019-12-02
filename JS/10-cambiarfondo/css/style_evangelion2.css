@@ -1,0 +1,32 @@
+* {
+  font-family: glooGun;
+}
+
+body {
+  background-image: url(../img/evangelion2.png);
+}
+
+h1 {
+  text-align: left;
+}
+
+#blink {
+  color: #030;
+}
+
+.lblNormal {
+  font-weight: 600;
+  color: #030;
+  font-size: 32px;
+}
+
+.cmbNormal {
+  font-size: 32px;
+  color: #333;
+}
+
+.lstElemento {
+  color: #00f;
+  font-size: 28px;
+  text-align: center;
+}

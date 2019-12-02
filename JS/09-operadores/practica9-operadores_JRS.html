@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejercicio 4 - Operadores</title>
+  <script>
+    var valores = [true, 5, false, 'hola', 'adios', 2];
+    // Cuál de los 2 elementos de texto es mayor
+    // Si el resultado es true, el primer texto es mayor
+    var resultado = valores[3] > valores[4];
+    alert(valores[3] + ' > ' + valores[4] + ' = ' + resultado);
+
+    // Combinar valores booleanos
+    var valor1 = valores[0];
+    var valor2 = valores[2];
+    // Obtener un resultado TRUE
+    var resultado = valor1 || valor2;
+    alert(valor1 + ' || ' + valor2 + ' = ' + resultado);
+
+    // Obtener un resultado FALSE
+    resultado = valor1 && valor2;
+    alert(valor1 + ' && ' + valor2 + ' = ' + resultado);
+
+    // Operaciones matemáticas
+    var numero1 = valores[1];
+    var numero2 = valores[5];
+    var suma = numero1 + numero2;
+    alert(numero1 + ' + ' + numero2 + ' = ' + suma);
+
+    var resta = numero1 - numero2;
+    alert(numero1 + ' - ' + numero2 + ' = ' + resta);
+
+    var multiplicacion = numero1 * numero2;
+    alert(numero1 + ' * ' + numero2 + ' = ' + multiplicacion);
+
+    var division = numero1 / numero2;
+    alert(numero1 + ' / ' + numero2 + ' = ' + division);
+
+    var modulo = numero1 % numero2;
+    alert(numero1 + ' % ' + numero2 + ' = ' + modulo);
+  </script>
+</head>
+<body>
+  <p>Esta página muestra el uso básico de los operadores</p>
+</body>
+</html>
